@@ -22,12 +22,21 @@ body{
     font-weight: 400;
 }
 
+.title-font{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 3rem;
+font-weight: 900;
+}
 
 /* Header styles */
 header {
     padding-top: 52px;
     background-image: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 }
+/* .menu-icon{
+    display: none;
+} */
 #gradient{
     background-image: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 }
@@ -104,7 +113,7 @@ header {
 .banner-title {
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 4.8rem;
+    font-size: 4.1rem;
     font-weight: 900;
     max-width: 494px;
 }
@@ -156,32 +165,79 @@ header {
 /* .banner-img img{
     width: 100%;
 } */
+/* Second part  */
+main{
+max-width: 1440px;
+margin: 0 auto;
+}
+.second-part{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.second-part-content{
+    text-align: center;
+    margin-bottom: 58px;
+}
+.second-part-paragrap{
+    max-width: 670px;
+    text-align: center;
+    margin-top: 14px;
+    
+}
+.second-part-img-title{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 1.1rem;
+font-weight: 600;
+margin-bottom: 6px;
+}
+.second-part-cart{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 231px;
+    height: 330px;
+    text-align: center;
+}
+.second-part-cart img{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 50%;
 
-
-
+}
+.second-part-image{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* gap: 40px; */
+}
 
 @media screen and (max-width : 576px) {
      
     /* .header-section, */
     .banner-part
     {
-        flex-direction: column;
-        
-        
+        flex-direction: column; 
     } 
     .banner-img{
         width:100%;
     }
     .banner-content{
         width:100%;
-        justify-content: start;
+        justify-content: left;
         align-items: start;
         margin-bottom: 48px;
     }
     .span-section{
         display: none;
     }
-
+    /* .menu-icon{
+        display: block;
+    } */
+    .second-part-image{
+        grid-template-columns: repeat(1,1fr);
+        /* margin-bottom: 30px; */
+        gap: 40px;
+    }
 
 
 }
