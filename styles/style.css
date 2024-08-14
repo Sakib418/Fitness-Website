@@ -303,6 +303,75 @@ margin: 40px;
     padding: 0px;
     transform: translateY(-60px) translateX(20px);
 }
+/* Fifth-Part */
+.Fifth-Part{
+    margin-top: 88px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.Fifth-Part-Content{
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+.Fifth-Part-Details{
+    justify-content: start;
+    align-items: start;
+    padding-top: 60px;
+    margin-bottom: 70px;
+}
+.Fifth-Part-info{
+    color: rgb(230, 83, 60);
+font-family: Inter;
+font-size: 4.3rem;
+font-weight: 800;
+}
+.Fifth-Part-title{
+    width: 443px;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+
+    text-align: left;
+}
+#Fifth-title-text{
+    text-align: left;
+}
+.p_text-second{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: .8rem;
+font-weight: 400;
+}
+.Fifth-part-detail-title{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 1.6rem;
+font-weight: 700;
+margin-bottom: 40px;
+text-align: left;
+}
+.Fifth-part-service{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 1.1rem;
+font-weight: 400;
+margin-bottom: 20px;
+}
+.Footer-line{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 36px;
+
+}
+.Footer-title{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 36px;
+    
+}
 @media screen and (max-width : 576px) {
     .nav-icon{
         display: block;
@@ -313,6 +382,10 @@ margin: 40px;
         flex-direction: column; 
         
     } 
+    .Fifth-Part-Details{
+        flex-direction: column; 
+        gap: 20px;
+    }
     .banner-img{
         width:100%;
     }
